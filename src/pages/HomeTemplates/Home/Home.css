@@ -1,0 +1,51 @@
+.tab-list {
+    display: flex;
+    gap: 3rem;
+    font-size: 13px;
+    margin-top: 20px;
+    border-bottom: 1px solid rgb(226, 225, 225);
+    padding-bottom: 4px;
+}
+.tab-content{
+    position: relative;
+    cursor: pointer;
+    color: black;
+    text-decoration: none !important;
+}
+
+.tab-content.active, .tab-content:hover{
+    border-bottom: 3px solid rgb(13, 92, 182);
+    padding-bottom: 5px;
+    font-weight: bold;
+    color: rgb(13, 92, 182);
+}
+
+/* CATEGORIES */
+.book-categories li{
+    font-size: 14px;
+    margin: 8px 0;
+    cursor: pointer;
+}
+.book-categories:last-of-type {
+    margin-bottom: 0
+}
+/* BOOK ITEM */
+.book-wrapper{
+    padding: 1rem;
+}
+.book-wrapper:hover{
+    box-shadow: 0 0 5px 5px rgb(245, 244, 244);
+}
+.book-item{
+    color: black;
+    text-decoration: none !important;
+}
+.book-item:hover{
+    color: black;
+}
+
+.book-thumbnail{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

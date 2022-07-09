@@ -1,0 +1,63 @@
+.book-content{
+    background: white;
+    padding: 12px 18px;
+    margin: 12px 0;
+    border-radius: 4px;
+}
+
+/* Info */
+.info-title li, .info-content li {
+    font-size: 15px;
+    margin: 9px 0;
+}
+.info-title li {
+    color: grey;
+}
+
+/* Description */
+.btn-more {
+    border: 1px solid rgb(13, 92, 182);
+    padding: 3px 35px;
+    margin-bottom: 8px;
+    border-radius: 15px;
+    color: rgb(13, 92, 182);
+    transition: all 0.3s;
+    
+}
+.btn-more:hover{
+    color: white;
+    background: rgb(13, 92, 182);
+}
+
+/* Review */
+.review-title li {
+    font-size: 15px;
+    margin: 5px 0;
+}
+
+.img-thumbnail {
+    max-height: 392px;
+    min-width: 300px;
+}
+
+.btn-buy {
+    display: flex;
+    gap: 14px;
+    margin-top: 2rem;
+}
+.btn-buy a {
+    padding: 6px 60px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.btn-buy a:first-child {
+    color: rgb(221, 3, 3); 
+    border: 2px solid rgb(221, 3, 3);
+}
+
+.btn-buy a:last-child {
+    color: white;
+    background: rgb(221, 3, 3);
+}

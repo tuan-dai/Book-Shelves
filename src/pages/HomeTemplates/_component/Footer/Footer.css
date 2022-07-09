@@ -1,0 +1,12 @@
+  .footer-content li{
+    font-size: 13px;
+    padding: 5px 0;
+    font-weight: 300;
+  }
+  .footer-link {
+    color: rgb(163, 163, 163);
+    font-size: 0.8rem;
+  }
+  .footer-link:hover {
+    color: rgb(163, 163, 163);
+  }
